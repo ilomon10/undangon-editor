@@ -14,7 +14,7 @@ export const Analytics: React.FC = () => {
       <script
         defer
         data-domain={CONSTANTS.PLAUSIBLE_ID}
-        src={`http://${CONSTANTS.PLAUSIBLE_URL}/js/script.js`}
+        src={`${CONSTANTS.PLAUSIBLE_URL}/js/script.js`}
       ></script>
 
       <GoogleAnalytics gaId={CONSTANTS.GOOGLE_ANALYTICS_ID} />
