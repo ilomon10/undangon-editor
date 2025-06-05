@@ -10,6 +10,8 @@ const nextConfig = {
     googleAnalyticsId: process.env.GOOGLE_ANALYTICS_ID,
     umamiId: process.env.UMAMI_ID,
     umamiUrl: process.env.UMAMI_URL,
+    plausibleId: process.env.PLAUSIBLE_ID,
+    plausibleUrl: process.env.PLAUSIBLE_URL,
     imagekitUrl: process.env.IMAGEKIT_URL,
     imagekitPublicKey: process.env.IMAGEKIT_PUBLIC_KEY,
     imagekitPrivateKey: process.env.IMAGEKIT_PRIVATE_KEY,
